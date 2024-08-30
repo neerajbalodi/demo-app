@@ -15,4 +15,9 @@ public class MyController {
 	public String sayPing() {
 		return "Server responds good";
 	}
+	
+	@RequestMapping("api/user")
+	public String loginUser() {
+		return "Hello Buddy!";
+	}
 }
