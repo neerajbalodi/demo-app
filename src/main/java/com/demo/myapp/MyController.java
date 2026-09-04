@@ -13,7 +13,7 @@ public class MyController {
 	
 	@RequestMapping("api/ping")
 	public String sayPing() {
-		return "Server responds good!";
+		return "Server responds well!";
 	}
 	
 	@RequestMapping("api/user")
