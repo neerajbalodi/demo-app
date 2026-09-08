@@ -89,7 +89,7 @@ Worker Node (Only):
 a) Run the following commands on the worker node.
 
 sudo kubeadm reset pre-flight checks
-b) Paste the join command you got from the master node and append --v=5 at the end. Make sure either you are working as sudo user or usesudo before the command
+b) Paste the join command you got from the master node and append --v=5 at the end. Make sure either you are working as sudo user or usesudo before the command.
 
 Verify if it is working as expected!
 
